@@ -8,6 +8,7 @@ mcp-servers:
     url: https://mcp.pagerduty.com/mcp
     headers:
       Authorization: "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
+    tools: ["*"]
 ---
 
 # PagerDuty Agent
