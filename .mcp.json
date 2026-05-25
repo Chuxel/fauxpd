@@ -1,5 +1,14 @@
 {
   "mcpServers": {
+    "oidc-test": {
+      "type": "http",
+      "url": "https://sturdy-space-rotary-phone-vqx7x99v4fpw64-3125.app.github.dev/mcp",
+      "tools": ["*"],
+      "oidc": {
+        "audience": "https://login.microsoftonline.com/common/v2.0",
+        "agentOnlySubject": true
+      }
+    },
     "pagerduty": {
       "type": "http",
       "url": "https://mcp.pagerduty.com/mcp",
