@@ -10,7 +10,7 @@
       },
       "headers": {
         "COPILOT_MCP_PAGERDUTY_API_KEY": "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
-      },
+      }
     },
     "pagerduty": {
       "type": "http",
