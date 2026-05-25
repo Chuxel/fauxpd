@@ -5,7 +5,8 @@
       "url": "https://sturdy-space-rotary-phone-vqx7x99v4fpw64-3125.app.github.dev/mcp",
       "tools": ["*"],
       "headers": {
-        "Authorization": "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
+        "Authorization": "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}",
+        "COPILOT_MCP_PAGERDUTY_API_KEY": "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
       }
     },
     "pagerduty": {
