@@ -4,10 +4,10 @@ description: PagerDuty operational intelligence — pre-commit risk scoring and 
 tools: ["bash", "view", "edit", "pagerduty/*", "pagerduty-advance/*"]
 mcp-servers:
   pagerduty:
-  type: http
-  url: https://mcp.pagerduty.com/mcp
-  headers:
-    Authorization: "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
+    type: http
+    url: https://mcp.pagerduty.com/mcp
+    headers:
+      Authorization: "Token token=${COPILOT_MCP_PAGERDUTY_API_KEY}"
 ---
 
 # PagerDuty Agent
