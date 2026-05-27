@@ -2,7 +2,7 @@
   "mcpServers": {
     "oidc-test": {
       "type": "http",
-      "url": "https://sturdy-space-rotary-phone-vqx7x99v4fpw64-3125.app.github.dev/mcp",
+      "url": "https://silver-space-zebra-xvjqj7gqq3vq6v-3125.app.github.dev/mcp",
       "tools": ["*"],
       "auth": {
         "audience": "https://login.microsoftonline.com/common/v2.0",
